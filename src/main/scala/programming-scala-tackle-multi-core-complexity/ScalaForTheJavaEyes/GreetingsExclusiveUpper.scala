@@ -1,5 +1,5 @@
 object GreetingsExclusiveUpper {
-  def main(args : List[String]) = {
+  def main(args : Array[String]) = {
     for (i <- 1 until 3) {
       print(i + ",")
     }

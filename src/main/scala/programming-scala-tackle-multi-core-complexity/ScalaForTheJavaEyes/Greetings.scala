@@ -1,5 +1,5 @@
 object Greetings {
-  def main(args : List[String]) = {
+  def main(args : Array[String]) = {
     for (i <- 1 to 3) {
       print(i + ",")
     }
