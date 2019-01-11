@@ -1,10 +1,10 @@
-object MultiLine1 {
+object MultiLine {
   def main(args : Array[String]) = {
     val str = """
-    | hi
-    | hello
-    | hey
-    """.stripMargin
+    hi
+    hello
+    hey
+    """
     println(str)
   }
 }
