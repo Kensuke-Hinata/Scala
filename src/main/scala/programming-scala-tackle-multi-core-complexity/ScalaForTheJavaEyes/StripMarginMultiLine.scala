@@ -1,4 +1,4 @@
-object AnotherMultiLine {
+object StripMarginMultiLine {
   def main(args : Array[String]) = {
     val str = """
     | hi
