@@ -1,4 +1,4 @@
-package Car {
+package car {
   class Car(val year : Int) {
     private var milesDriven : Int = 0
 

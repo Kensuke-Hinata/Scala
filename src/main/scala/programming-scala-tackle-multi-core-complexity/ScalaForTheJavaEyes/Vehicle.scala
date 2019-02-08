@@ -1,4 +1,4 @@
-package Vehicle {
+package vehicle {
   class Vehicle(val id : Int, val year : Int) {
     override def toString() : String = "ID: " + id + " Year: " + year
   }
