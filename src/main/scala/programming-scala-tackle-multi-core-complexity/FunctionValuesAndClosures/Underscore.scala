@@ -4,5 +4,8 @@ object Underscore {
 
     println("Sum of all values in array is " + 
       (0 /: arr) { _ + _ })
+
+    val negativeNumberExists = arr.exists { _ < 0 }
+    println("Array has negative number? " + negativeNumberExists)
   }
 }
