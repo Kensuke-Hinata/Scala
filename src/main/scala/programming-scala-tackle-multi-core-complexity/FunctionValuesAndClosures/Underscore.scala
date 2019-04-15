@@ -7,5 +7,10 @@ object Underscore {
 
     val negativeNumberExists = arr.exists { _ < 0 }
     println("Array has negative number? " + negativeNumberExists)
+
+    def max2(a : Int, b : Int) : Int = if (a > b) a else b
+
+    val max = (Integer.MIN_VALUE /: arr) { max2 }
+    println("Maximum value of array is " + max)
   }
 }
