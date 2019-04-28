@@ -11,7 +11,7 @@ object WriteToFile {
     }
   }
 
-  def main(args: Array[String]) : Unit = {
+  def main(args : Array[String]) : Unit = {
     writeToFile("output") {
       writer => writer write "hello from Scala"
     }

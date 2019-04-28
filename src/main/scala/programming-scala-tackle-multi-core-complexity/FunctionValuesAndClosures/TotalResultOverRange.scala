@@ -8,7 +8,7 @@ object TotalResultOverRange {
     result
   }
 
-  def main(args: Array[String]) : Unit = {
+  def main(args : Array[String]) : Unit = {
     println(totalResultOverRange(11, i => i))
     println(totalResultOverRange(11, i => if (i % 2 == 0) 1 else 0))
   } 

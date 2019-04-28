@@ -5,7 +5,7 @@ object Closure {
     }
   }
 
-  def main(args: Array[String]) : Unit = {
+  def main(args : Array[String]) : Unit = {
     var result = 0
     val addIt = {
       value : Int => result += value
