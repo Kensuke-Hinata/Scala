@@ -1,1 +1,3 @@
-class Human(val name : String) extends Friend
+package animal {
+  class Human(val name : String) extends Friend
+}

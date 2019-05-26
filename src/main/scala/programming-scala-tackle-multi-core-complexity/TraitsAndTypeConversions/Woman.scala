@@ -1,1 +1,3 @@
-class Woman(override val name : String) extends Human(name)
+package animal {
+  class Woman(override val name : String) extends Human(name)
+}
